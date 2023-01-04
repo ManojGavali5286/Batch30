@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG1Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name=".ABC"/>
+      <class name="TestCasesVerifivcation.TestClass_verifyHomePage"/>
+      <class name="TestCasesVerifivcation.loginLogoutVerify"/>
+      <class name="TestCasesVerifivcation.TestClass_verifyLoginFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TestNG1Suite -->

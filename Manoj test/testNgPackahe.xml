@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" parallel="classes" name="Testhighpriority">
+    <classes>
+      <class name="testNGpackage.Keyworsds3"/>
+      <class name="testNGpackage.TestNGAnnotataion"/>
+      <class name="testNGpackage.automation1"/>
+      <class name="testNGpackage.Keywords"/>
+      <class name="testNGpackage.Keywords2"/>
+      <class name="testNGpackage.BeforeTestAfterAnnotation"/>
+      <class name="testNGpackage.SuasDemo"/>
+      <class name="testNGpackage.TestNGKeywords"/>
+    </classes>
+  </test> <!-- Testhighpriority -->
+</suite> <!-- Suite -->
