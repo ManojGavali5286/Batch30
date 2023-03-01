@@ -2,10 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="TestNG1Suite">
   <test thread-count="5" name="Test">
+  <parameter name="browserName" value="chrome"></parameter>
     <classes>
-      <class name=".ABC"/>
-      <class name="TestCasesVerifivcation.TestClass_verifyHomePage"/>
-      <class name="TestCasesVerifivcation.loginLogoutVerify"/>
       <class name="TestCasesVerifivcation.TestClass_verifyLoginFunctionality"/>
     </classes>
   </test> <!-- Test -->
